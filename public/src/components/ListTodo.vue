@@ -66,7 +66,7 @@ export default {
     },
     updateTodo (todo) {
       let id = todo._id;
-      let uri = 'http://localhost:4000/api/update/' + id;
+      let uri = '/api/update/' + id;
       todo.editing = false;
       axios.post(uri, todo).then((response) => {
         console.log(response);
@@ -76,7 +76,7 @@ export default {
     },
 
     deleteTodo (id) {
-      let uri = 'http://localhost:4000/api/delete/' + id;
+      let uri = '/api/delete/' + id;
       axios.get(uri);
       this.fetchTodo();
     },
