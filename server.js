@@ -7,6 +7,7 @@ var path = require('path')
 var app = express()
 var mongoose = require('mongoose')
 var bodyParser = require('body-parser')
+require('dotenv').config()
 
 // Require configuration file defined in app/Config.js
 var config = require('./app/Config')
