@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     fetchTodo () {
-      let uri = process.env.BASE_URL + '/api/all';
+      let uri = '/api/all';
       axios.get(uri).then((response) => {
         this.todos = response.data;
       });
