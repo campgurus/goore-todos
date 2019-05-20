@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="col-md-12" v-show="todos.length>0">
-      <h3>Darius' Todo Items</h3>
+      <h3>Todo Items</h3>
       <div class="row mrb-10" v-for="todo in todos">
         <div class="input-group m-b-5">
           <span class="input-group-addon addon-right">
