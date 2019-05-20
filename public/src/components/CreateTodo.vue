@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Create a Todo List</h2>
+    <h2>Darius' Todo List</h2>
     <form @submit.prevent>
       <div class="form-group">
         <input
