@@ -29,3 +29,6 @@ docker run -p 127.0.0.1:27017:27017 --name mongodb  -t mongo
 npm start
 ```
 Navigate to http://localhost:4000
+
+tutorial: https://dev.to/abiodunjames/build-a-todo-app-with-nodejs-expressjs-mongodb-and-vuejs--part-2--3k11
+
